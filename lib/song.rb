@@ -29,5 +29,6 @@ class Song
       hash.keys.include?(genre) ? hash[genre] += 1 : hash[genre] = 1
     end
     hash
-    
+  end
+
 end
